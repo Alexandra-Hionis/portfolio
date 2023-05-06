@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Kolleltif", sans-serif;
+  src: url("../fonts/Kollektif.ttf");
+}
+
+h1 {
+  font-weight: 400;
+  font-family: $font-primary;
+  letter-spacing: 2px;
+  font-size: 30px;
+  @media screen and (min-width: $tablet) {
+    font-size: 63px;
+  }
+}
