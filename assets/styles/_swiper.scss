@@ -2,13 +2,21 @@
   .swiper {
     width: 100%;
     height: 100%;
+    // @media screen and (max-width: $xs-mobile) {
+    //   width: 62%;
+    //   margin-right: 20px;
+    // }
+    // height: 100%;
+    // @media screen and (min-width: $desktop) {
+    //   width: 100%;
+    // }
   }
 
   .swiper-slide {
-    font-size: 18px;
+    text-align: left;
     background: transparent;
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
   }
 }

@@ -6,7 +6,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="assets/styles/main.css" />
     <title>Alexandra Hionis | Portfolio</title>
-    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
+    <!-- <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" /> -->
     <meta name="description" content="I'm Alex - Front End Web Developer" />
     <meta
       name="keywords"
@@ -19,21 +19,36 @@
     />
   </head>
   <body>
-    <section class="intro">
-      <!-- Swiper -->
-      <div class="swiper swiperIntro">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">Slide 1</div>
-          <div class="swiper-slide">Slide 2</div>
-          <div class="swiper-slide">Slide 3</div>
-          <div class="swiper-slide">Slide 4</div>
-          <div class="swiper-slide">Slide 5</div>
-          <div class="swiper-slide">Slide 6</div>
-          <div class="swiper-slide">Slide 7</div>
-          <div class="swiper-slide">Slide 8</div>
+    <div class="sidebar">
+      <div class="hamburger" onclick="toggleSidebar()">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <div>
+        <ul class="links">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="content">
+      <div class="intro">
+        <div class="test">
+          <!-- Swiper -->
+          <div class="swiper swiperIntro">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <h1>Front End Web <br />Developer</h1>
+              </div>
+              <div class="swiper-slide"><h1>Novice Designer</h1></div>
+              <div class="swiper-slide"><h1>Problem Solver</h1></div>
+            </div>
+          </div>
         </div>
       </div>
-    </section>
+    </div>
     <!-- Swiper -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script type="text/javascript" src="assets/js/swiper.js"></script>

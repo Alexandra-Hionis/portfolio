@@ -14,3 +14,8 @@ var swiper = new Swiper(".swiperIntro", {
     prevEl: ".swiper-button-prev",
   },
 });
+
+function toggleSidebar() {
+  var sidebar = document.querySelector(".sidebar");
+  sidebar.classList.toggle("open");
+}

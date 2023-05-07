@@ -7,8 +7,19 @@ h1 {
   font-weight: 400;
   font-family: $font-primary;
   letter-spacing: 2px;
-  font-size: 30px;
+  font-size: 25px;
+  @media screen and (max-width: $xs-mobile) {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+  @media screen and (min-width: $mobile) {
+    font-size: 25px;
+    margin-left: 20px;
+  }
   @media screen and (min-width: $tablet) {
+    font-size: 43px;
+  }
+  @media screen and (min-width: $desktop) {
     font-size: 63px;
   }
 }
