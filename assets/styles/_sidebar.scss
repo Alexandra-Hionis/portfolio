@@ -1,21 +1,27 @@
 .sidebar {
-  border-right: 0.5px solid lightgrey;
+  border: red solid 2px;
+  // border-right: 0.5px solid lightgrey;
   width: 50px;
-  height: 100%;
-  position: fixed;
-  background-color: white;
-  transition: width 0.3s ease;
-  overflow: hidden;
+  height: 100vh;
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
-  z-index: 10;
+  // position: fixed;
+  // background-color: transparent;
+  transition: width 0.3s ease;
+  // overflow: hidden;
+  // display: grid;
+  // grid-template-columns: 1fr 2fr;
+  // align-items: center;
+  // z-index: 1099;
   @media screen and (min-width: $mobile) {
     width: 60px;
   }
   &.open {
     width: 250px;
-
+    .links {
+      display: block;
+    }
     .line:nth-child(1) {
       transform: rotate(45deg) translate(5px, 5px);
     }
@@ -56,7 +62,7 @@
     list-style-type: none;
     padding: 0;
     margin: 50px 20px;
-    display: block;
+    display: none;
 
     li {
       margin-bottom: 20px;
