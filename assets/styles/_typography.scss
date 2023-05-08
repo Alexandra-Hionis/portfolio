@@ -1,6 +1,19 @@
+// @font-face {
+//   font-family: "Kolleltif";
+//   src: url("../fonts/Kollektif.ttf");
+// }
+// @font-face {
+//   font-family: "Knockout-Sumo", sans-serif;
+//   src: url("../fonts/Knockout-Sumo.otf");
+// }
+
 @font-face {
-  font-family: "Kolleltif", sans-serif;
-  src: url("../fonts/Kollektif.ttf");
+  font-family: "Knockout-Sumo";
+  src: url("../fonts/Knockout-Sumo.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Kolleltif";
+  src: url("../fonts/Kolleltif.woff2") format("woff2");
 }
 
 h1 {
