@@ -7,14 +7,15 @@
   //   }
   &__list {
     list-style-type: none;
-
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
     display: flex;
     gap: 20px;
     display: none;
-    @media screen and (min-width: $mobile) {
-      writing-mode: vertical-rl;
-      text-orientation: mixed;
-    }
+    // @media screen and (min-width: $mobile) {
+    //   writing-mode: vertical-rl;
+    //   text-orientation: mixed;
+    // }
     &.openSocials {
       display: flex;
     }

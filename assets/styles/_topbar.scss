@@ -9,15 +9,19 @@
   &__wrap {
     display: flex;
     justify-content: space-around;
-    align-items: flex-start;
+    // align-items: flex-start;
+    align-items: center;
     max-width: 100%;
     margin: 0 auto;
-    flex-direction: column;
+    flex-direction: row;
     gap: 5px;
+    transform: scale(75%);
     @media screen and (min-width: $mobile) {
-      flex-direction: row;
-      align-items: center;
-      gap: 0;
+      //   flex-direction: row;
+      //   align-items: center;
+      //   gap: 0;
+      //   transform: scale(-10%);
+      transform: scale(100%);
     }
   }
   hr {
