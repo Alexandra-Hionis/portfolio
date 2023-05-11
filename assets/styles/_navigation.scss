@@ -1,0 +1,37 @@
+.nav {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  //   @media screen and (min-width: $tablet) {
+  //     flex-direction: row;
+  //   }
+  &__list {
+    list-style-type: none;
+
+    display: flex;
+    gap: 20px;
+    display: none;
+    @media screen and (min-width: $mobile) {
+      writing-mode: vertical-rl;
+      text-orientation: mixed;
+    }
+    &.openSocials {
+      display: flex;
+    }
+    &.openPages {
+      display: flex;
+    }
+  }
+  li {
+    font-family: $knockout;
+    text-transform: uppercase;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+.plus-icon {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 10px;
+}

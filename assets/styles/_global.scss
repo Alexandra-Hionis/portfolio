@@ -1,5 +1,6 @@
 // Variables
-$font-primary: "Kolleltif", sans-serif;
+$knockout: "Knockout-Sumo", sans-serif;
+$dm-sans: "DM Sans", sans-serif;
 // Global Styles
 * {
   box-sizing: border-box;
@@ -8,6 +9,5 @@ $font-primary: "Kolleltif", sans-serif;
   scroll-behavior: smooth;
 }
 body {
-  font-family: $font-primary;
-  letter-spacing: 2px;
+  margin: 0;
 }

@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="assets/styles/main.css" />
     <title>Alexandra Hionis | Portfolio</title>
     <!-- <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" /> -->
+    
     <meta name="description" content="I'm Alex - Front End Web Developer" />
     <meta
       name="keywords"
@@ -19,39 +20,78 @@
     />
   </head>
   <body>
-    <section class="main">
-      <div class="main__container">
-        <div class="sidebar">
-          <div class="hamburger" onclick="toggleSidebar()">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
-          </div>
+    <header id="navbar">
+      <div class="top-bar">
+        <div class="top-bar__wrap">
           <div>
-            <ul class="links">
-              <li><a href="#">About</a></li>
-              <li><a href="#">Projects</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
+            <h2>Front End <br />Web Developer</h2>
+          </div>
+          <div><hr size="5" color="black" /></div>
+          <div>
+            <h2>
+              Novice <br />
+              Designer
+            </h2>
           </div>
         </div>
-        <!-- <div class="sidebar">
-          <div class="hamburger" onclick="toggleSidebar()">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
-          </div>
-          <div>
-            <ul class="links">
-              <li><a href="#">About</a></li>
-              <li><a href="#">Projects</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </div>
-        </div> -->
-        <div class="content">testing content</div>
       </div>
-    </section>
+    </header>
+    <main>
+      <!-- Main -->
+      <section>
+        <div class="main__landing">
+          <div class="main__column">
+            <div class="nav">
+                <img onclick="toggleNavSocials()"
+                  src="assets/images/plus-solid.svg"
+                  class="plus-icon" id="plus-icon-socials"
+                  alt="plus icon nav"
+                />
+                <ul class="nav__list nav-socials" >
+                    <li>Upwork</li>
+                    <li>LinkedIn</li>
+                    <li>Github</li>
+                </ul>
+          </div>
+          </div>
+          <div class="main__column">
+            <!-- image box -->
+            <div class="hero-image__container">
+              <img
+                src="assets/images/hero.jpg"
+                alt="Philadelphia skyline on a blue sky day"
+              />
+              <div class="hero-image__box">
+                <h1>I bring <br />designs <br />to life</h1>
+                <a class="button">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="main__column">
+            <div class="nav">
+                <img onclick="toggleNavPages()"
+                  src="assets/images/plus-solid.svg"
+                  class="plus-icon" id="plus-icon-pages"
+                  alt="plus icon nav"
+                />
+                <ul class="nav__list nav-pages">
+                    <li>Projects</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+          </div>
+        </div>
+      </section>
+      <!-- About -->
+      <section></section>
+
+      <!-- Projects -->
+      <section></section>
+
+      <!-- Contact -->
+      <section></section>
+    </main>
+
     <!-- Swiper -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script type="text/javascript" src="assets/js/swiper.js"></script>
