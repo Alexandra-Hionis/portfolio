@@ -157,6 +157,7 @@ p {
 .nav li {
   font-family: "Knockout-Sumo", sans-serif;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .nav li:hover {

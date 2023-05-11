@@ -25,6 +25,7 @@
   li {
     font-family: $knockout;
     text-transform: uppercase;
+    cursor: pointer;
     &:hover {
       text-decoration: underline;
     }
