@@ -11,3 +11,10 @@ $dm-sans: "DM Sans", sans-serif;
 body {
   margin: 0;
 }
+.container {
+  width: 100%;
+  &__inner {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}

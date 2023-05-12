@@ -1,0 +1,11 @@
+.about {
+  margin-top: 50px;
+  &__container {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    justify-content: space-evenly;
+  }
+  &__column:nth-child(2) {
+    text-align: center;
+  }
+}

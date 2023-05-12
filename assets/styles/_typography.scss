@@ -18,6 +18,9 @@ h1 {
     font-size: 46px;
   }
 }
+h1 span {
+  font-family: $knockout;
+}
 
 h2 {
   font-family: $knockout;
@@ -37,10 +40,17 @@ h2 {
 p {
   font-family: $dm-sans;
   text-transform: lowercase;
+  margin: 10px 0;
 }
 
 // verrtical text
 .vertical {
   text-orientation: upright;
   writing-mode: vertical-lr;
+}
+.bio {
+  font-size: 26px;
+  @media screen and (min-width: $tablet) {
+    font-size: 36px;
+  }
 }
