@@ -432,6 +432,12 @@ header {
   -webkit-text-stroke-color: #25aae0;
 }
 
+.funfetti .marquee h1 {
+  white-space: nowrap;
+  width: 70%;
+  -webkit-text-stroke-color: #d0277f;
+}
+
 .projects {
   margin-top: 50px;
 }
