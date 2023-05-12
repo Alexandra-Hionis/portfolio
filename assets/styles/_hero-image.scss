@@ -45,4 +45,7 @@
   min-height: 50vh;
   object-fit: cover;
   height: 500px;
+  @media screen and (min-width: $xlarge-desktop) {
+    height: 800px;
+  }
 }

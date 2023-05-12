@@ -8,6 +8,7 @@
 }
 
 h1 {
+  animation: marquee 25s linear infinite running;
   font-family: $dm-sans;
   text-transform: uppercase;
   font-weight: 400;
@@ -36,4 +37,10 @@ h2 {
 p {
   font-family: $dm-sans;
   text-transform: lowercase;
+}
+
+// verrtical text
+.vertical {
+  text-orientation: upright;
+  writing-mode: vertical-lr;
 }

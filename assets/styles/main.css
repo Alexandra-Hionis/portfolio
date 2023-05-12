@@ -17,6 +17,8 @@ body {
 }
 
 h1 {
+  -webkit-animation: marquee 25s linear infinite running;
+          animation: marquee 25s linear infinite running;
   font-family: "DM Sans", sans-serif;
   text-transform: uppercase;
   font-weight: 400;
@@ -55,6 +57,17 @@ p {
   text-transform: lowercase;
 }
 
+.vertical {
+  text-orientation: upright;
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+}
+
+header {
+  margin-top: 50px;
+}
+
 .top-bar {
   width: 100%;
   top: 0;
@@ -69,8 +82,10 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -87,6 +102,7 @@ p {
 
 @media screen and (min-width: 576px) {
   .top-bar__wrap {
+    padding: 0 5%;
     -webkit-transform: scale(100%);
             transform: scale(100%);
   }
@@ -209,6 +225,12 @@ p {
   -o-object-fit: cover;
      object-fit: cover;
   height: 500px;
+}
+
+@media screen and (min-width: 1900px) {
+  .hero-image__container img {
+    height: 800px;
+  }
 }
 
 .button {
