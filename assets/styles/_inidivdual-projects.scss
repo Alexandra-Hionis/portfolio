@@ -1,21 +1,41 @@
 .projects {
+  margin-top: 50px;
   &__container {
     display: grid;
-    grid-template-columns: 2fr 4fr;
+    grid-template-columns: 1fr;
+    @media screen and (min-width: $tablet) {
+      grid-template-columns: 2fr 4fr;
+    }
   }
   &__image-container {
     display: block;
-    max-height: 400px;
     margin: 29px;
     overflow-y: scroll;
-    background: white;
-    box-shadow: 10px 5px 5px lightgrey;
     border: solid 2px black;
-    img {
-      max-width: 100%;
+    max-height: 400px;
+    @media screen and (min-width: $xlarge-desktop) {
+      max-height: 600px;
     }
   }
-}
-.sunnyd-seltzers {
-  background-color: $sunnyd-seltzers-blue;
+  &__image {
+    max-width: 100%;
+  }
+  &__column {
+    display: flex;
+    flex-direction: column;
+  }
+  @media screen and (max-width: $tablet) {
+    &__column:nth-child(1) {
+      order: 2;
+    }
+    &__column:nth-child(2) {
+      order: 1;
+    }
+  }
+  //   .brand-logo {
+  //     width: 150px;
+  //     @media screen and (min-width: $tablet) {
+  //       width: 250px;
+  //     }
+  //   }
 }

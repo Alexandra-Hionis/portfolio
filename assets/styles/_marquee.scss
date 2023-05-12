@@ -16,12 +16,12 @@
   transform: translateX(100%);
   -moz-animation: scroll-left 1s linear infinite;
   -webkit-animation: scroll-left 1s linear infinite;
-  animation: scroll-left 20s linear infinite;
+  animation: scroll-left 15s linear infinite;
   color: black;
   -webkit-text-fill-color: white; /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
-
+  font-weight: 600;
   font-size: 66px;
   @media screen and (min-width: $tablet) {
     font-size: 76px;
@@ -56,5 +56,13 @@
     -moz-transform: translateX(-100%);
     -webkit-transform: translateX(-100%);
     transform: translateX(-100%);
+  }
+}
+
+.sunnyd-seltzers {
+  .marquee h1 {
+    white-space: nowrap;
+    width: 70%;
+    -webkit-text-stroke-color: $sunnyd-seltzers-blue;
   }
 }

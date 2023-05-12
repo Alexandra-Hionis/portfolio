@@ -20,6 +20,14 @@ body {
   margin: 0 auto;
 }
 
+.project-pages .container {
+  width: 100%;
+}
+
+.project-pages .container__inner {
+  max-width: 95%;
+}
+
 @font-face {
   font-family: "Knockout-Sumo";
   src: url("../fonts/Knockout-Sumo.woff2") format("woff2");
@@ -67,7 +75,6 @@ h2 {
 
 p {
   font-family: "DM Sans", sans-serif;
-  text-transform: lowercase;
   margin: 10px 0;
 }
 
@@ -149,8 +156,7 @@ header {
 }
 
 .topbar__back {
-  background-color: blue;
-  margin: 20px 20px;
+  background-color: white;
 }
 
 .topbar__back a {
@@ -164,7 +170,7 @@ header {
   color: black;
 }
 
-.topbar__back img {
+.topbar__back .back-arrow {
   width: 30px;
   height: 30px;
 }
@@ -380,12 +386,13 @@ header {
   -webkit-transform: translateX(100%);
   transform: translateX(100%);
   -webkit-animation: scroll-left 1s linear infinite;
-  animation: scroll-left 20s linear infinite;
+  animation: scroll-left 15s linear infinite;
   color: black;
   -webkit-text-fill-color: white;
   /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
+  font-weight: 600;
   font-size: 66px;
 }
 
@@ -415,29 +422,68 @@ header {
   }
 }
 
+.sunnyd-seltzers .marquee h1 {
+  white-space: nowrap;
+  width: 70%;
+  -webkit-text-stroke-color: #25aae0;
+}
+
+.projects {
+  margin-top: 50px;
+}
+
 .projects__container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 2fr 4fr;
-      grid-template-columns: 2fr 4fr;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+}
+
+@media screen and (min-width: 768px) {
+  .projects__container {
+    -ms-grid-columns: 2fr 4fr;
+        grid-template-columns: 2fr 4fr;
+  }
 }
 
 .projects__image-container {
   display: block;
-  max-height: 400px;
   margin: 29px;
   overflow-y: scroll;
-  background: white;
-  -webkit-box-shadow: 10px 5px 5px lightgrey;
-          box-shadow: 10px 5px 5px lightgrey;
   border: solid 2px black;
+  max-height: 400px;
 }
 
-.projects__image-container img {
+@media screen and (min-width: 1900px) {
+  .projects__image-container {
+    max-height: 600px;
+  }
+}
+
+.projects__image {
   max-width: 100%;
 }
 
-.sunnyd-seltzers {
-  background-color: #25aae0;
+.projects__column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+  .projects__column:nth-child(1) {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .projects__column:nth-child(2) {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
 }
 /*# sourceMappingURL=main.css.map */
