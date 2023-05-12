@@ -5,6 +5,7 @@ $dm-sans: "DM Sans", sans-serif;
 // Colors
 $sunnyd-seltzers-blue: #25aae0;
 $funfetti-pink: #d0277f;
+$honeygo-blue: #1952a2;
 // Global Styles
 * {
   box-sizing: border-box;
@@ -17,6 +18,9 @@ body {
 }
 section {
   margin-top: 50px;
+}
+ul {
+  list-style-type: none;
 }
 .container {
   width: 100%;

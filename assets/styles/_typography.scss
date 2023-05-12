@@ -12,7 +12,6 @@ h1 {
   font-family: $dm-sans;
   text-transform: uppercase;
   font-weight: 400;
-
   font-size: 36px;
   @media screen and (min-width: $tablet) {
     font-size: 46px;
@@ -28,7 +27,7 @@ h2 {
   font-size: 16px;
   line-height: 1;
   font-weight: 400;
-  white-space: nowrap;
+  // white-space: nowrap;
   @media screen and (min-width: $tablet) {
     font-size: 16px;
   }

@@ -35,3 +35,13 @@ function toggleNavPages() {
     xPages.style.transform = "rotate(90deg)";
   }
 }
+var swiper = new Swiper(".before-after", {
+  slidesPerView: 1,
+  spaceBetween: 30,
+  grabCursor: true,
+  centeredSlides: true,
+  768: {
+    slidesPerView: 1.5,
+    spaceBetween: 40,
+  },
+});

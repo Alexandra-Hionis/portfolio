@@ -74,3 +74,11 @@
     -webkit-text-stroke-color: $funfetti-pink;
   }
 }
+
+.funfetti {
+  .marquee h1 {
+    white-space: nowrap;
+    width: 70%;
+    -webkit-text-stroke-color: $honeygo-blue;
+  }
+}

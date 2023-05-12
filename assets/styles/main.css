@@ -15,6 +15,10 @@ section {
   margin-top: 50px;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .container {
   width: 100%;
 }
@@ -62,7 +66,6 @@ h2 {
   font-size: 16px;
   line-height: 1;
   font-weight: 400;
-  white-space: nowrap;
 }
 
 @media screen and (min-width: 768px) {
@@ -301,6 +304,9 @@ header {
   border-radius: 18px;
   font-family: "DM Sans", sans-serif;
   text-transform: uppercase;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-size: 12px;
 }
 
@@ -333,12 +339,12 @@ header {
   text-align: center;
 }
 
-.swiper {
+.before-after .swiper {
   width: 100%;
   height: 100%;
 }
 
-.swiper-slide {
+.before-after .swiper-slide {
   text-align: center;
   font-size: 18px;
   background: #fff;
@@ -351,27 +357,15 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: 1px solid black;
 }
 
-.swiper-slide img {
+.before-after .swiper-slide img {
+  border: 2px solid black;
   display: block;
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  height: 50%;
   -o-object-fit: cover;
      object-fit: cover;
-}
-
-.swiper-slide {
-  width: 60%;
-}
-
-.swiper-slide:nth-child(2n) {
-  width: 40%;
-}
-
-.swiper-slide:nth-child(3n) {
-  width: 20%;
 }
 
 .marquee {
@@ -438,6 +432,12 @@ header {
   -webkit-text-stroke-color: #d0277f;
 }
 
+.funfetti .marquee h1 {
+  white-space: nowrap;
+  width: 70%;
+  -webkit-text-stroke-color: #1952a2;
+}
+
 .projects {
   margin-top: 50px;
 }
@@ -449,10 +449,10 @@ header {
       grid-template-columns: 1fr;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
   .projects__container {
-    -ms-grid-columns: 2fr 4fr;
-        grid-template-columns: 2fr 4fr;
+    -ms-grid-columns: 1fr 2fr;
+        grid-template-columns: 1fr 2fr;
   }
 }
 
@@ -482,9 +482,10 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-top: 20px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .projects__column:nth-child(1) {
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
@@ -497,6 +498,35 @@ header {
   }
 }
 
+.design {
+  margin-top: 50px;
+}
+
+.design__container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+}
+
+@media screen and (min-width: 768px) {
+  .design__container {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+}
+
+.design__column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 20px;
+}
+
 .sunnyd-seltzers .responsive {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -505,5 +535,33 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+ul.color-pallete {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+
+ul.color-pallete li {
+  width: 100px;
+  height: 120px;
+}
+
+ul.color-pallete li:nth-child(1) {
+  background: #37a3ab;
+}
+
+ul.color-pallete li:nth-child(2) {
+  background: #1952a2;
+}
+
+ul.color-pallete li:nth-child(3) {
+  background: #e89758;
+}
+
+.honeygo-logo {
+  max-width: 250px;
 }
 /*# sourceMappingURL=main.css.map */
