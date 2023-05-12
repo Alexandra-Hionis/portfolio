@@ -1,0 +1,21 @@
+.projects {
+  &__container {
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+  }
+  &__image-container {
+    display: block;
+    max-height: 400px;
+    margin: 29px;
+    overflow-y: scroll;
+    background: white;
+    box-shadow: 10px 5px 5px lightgrey;
+    border: solid 2px black;
+    img {
+      max-width: 100%;
+    }
+  }
+}
+.sunnyd-seltzers {
+  background-color: $sunnyd-seltzers-blue;
+}

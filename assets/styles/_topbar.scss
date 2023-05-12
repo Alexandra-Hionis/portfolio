@@ -39,3 +39,20 @@ header {
     }
   }
 }
+
+.topbar {
+  &__back {
+    background-color: blue;
+    margin: 20px 20px;
+    a {
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      color: black;
+    }
+    img {
+      width: 30px;
+      height: 30px;
+    }
+  }
+}
