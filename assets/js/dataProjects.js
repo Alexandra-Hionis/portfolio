@@ -36,12 +36,12 @@ const projects = [
     buttonRepoText: "github",
   },
   {
-    imgSrc: "assets/images/career-prep.png",
-    alt: "image of Career prep and professional development website",
-    h2ProjectName: "Career Prep and Professional Development <br> coming soon",
-    buttonProjectLink: "",
-    buttonText: "Coming Soon",
-    buttonRepoLink: "/",
+    imgSrc: "assets/images/chanhassen-dinner-theatre-weddings.png",
+    alt: "image of chanhassen dinner theatres wedding and events website",
+    h2ProjectName: "Chanhassen Dinner theatre weddings & events",
+    buttonProjectLink: "../portfolio/chanhassen-theatre.html",
+    buttonText: "View Project",
+    buttonRepoLink: "",
     buttonRepoText: "github",
   },
 ];

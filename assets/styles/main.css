@@ -380,6 +380,14 @@ header {
 .swiper-button-next,
 .swiper-button-prev {
   color: black !important;
+  top: 38% !important;
+}
+
+@media screen and (max-width: 768px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none !important;
+  }
 }
 
 .swiper-all-projects .swiper {
@@ -412,6 +420,13 @@ header {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .swiper-all-projects .swiper-slide img {
+    width: 80%;
+    height: 80%;
+  }
 }
 
 .marquee {
