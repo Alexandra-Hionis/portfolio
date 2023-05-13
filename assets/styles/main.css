@@ -1,9 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 0;
   scroll-behavior: smooth;
+}
+
+.container {
+  width: 100%;
+}
+
+.container__inner {
+  max-width: 95%;
+  margin: 0 auto;
 }
 
 .hidden {
@@ -32,15 +41,6 @@ hr {
   hr {
     width: 180px;
   }
-}
-
-.container {
-  width: 100%;
-}
-
-.container__inner {
-  max-width: 80%;
-  margin: 0 auto;
 }
 
 .project-pages .container {
@@ -326,8 +326,8 @@ header {
 }
 
 .button {
-  background-color: transparent;
-  border: black 1px solid;
+  background-color: #f5f5f5;
+  border: black 2px solid;
   color: black;
   padding: 10px 20px;
   text-align: center;
@@ -358,6 +358,7 @@ header {
 .about {
   background-color: #f5f5f5;
   margin-top: 50px;
+  padding: 0px;
 }
 
 .about__container {
@@ -372,6 +373,12 @@ header {
 
 .about__column:nth-child(2) {
   text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .about {
+    padding: 10px 20px;
+  }
 }
 
 .swiper-slide img {

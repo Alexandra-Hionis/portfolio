@@ -1,9 +1,10 @@
 // Variables
 $knockout: "Knockout-Sumo", sans-serif;
-$dm-montserrat: "Montserrat", sans-serif;
+$montserrat: "Montserrat", sans-serif;
 $dm-sans: "DM Sans", sans-serif;
 
 // Colors
+$gray-bg: #f5f5f5;
 $sunnyd-seltzers-blue: #25aae0;
 $funfetti-pink: #d0277f;
 $honeygo-blue: #1952a2;
@@ -11,10 +12,17 @@ $cdt-green: #7f918b;
 // Global Styles
 * {
   box-sizing: border-box;
-  // margin: 0;
   padding: 0;
   scroll-behavior: smooth;
 }
+.container {
+  width: 100%;
+  &__inner {
+    max-width: 95%;
+    margin: 0 auto;
+  }
+}
+
 .hidden {
   display: none;
 }
@@ -31,13 +39,6 @@ hr {
   }
   @media screen and (min-width: $desktop) {
     width: 180px;
-  }
-}
-.container {
-  width: 100%;
-  &__inner {
-    max-width: 80%;
-    margin: 0 auto;
   }
 }
 
