@@ -13,7 +13,9 @@ $honeygo-blue: #1952a2;
   padding: 0;
   scroll-behavior: smooth;
 }
-
+.hidden {
+  display: none;
+}
 section {
   margin-top: 50px;
 }

@@ -6,6 +6,10 @@
   scroll-behavior: smooth;
 }
 
+.hidden {
+  display: none;
+}
+
 section {
   margin-top: 50px;
 }
