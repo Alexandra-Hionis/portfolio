@@ -5,6 +5,7 @@
 }
 
 .marquee h1 {
+  font-family: $dm-sans;
   white-space: nowrap;
   position: absolute;
   width: 100%;
@@ -20,7 +21,7 @@
   animation: scroll-left 15s linear infinite;
   color: black;
   -webkit-text-fill-color: white; /* Will override color (regardless of order) */
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 4px;
   -webkit-text-stroke-color: black;
   font-weight: 600;
   font-size: 66px;
@@ -63,6 +64,7 @@
 .sunnyd-seltzers {
   .marquee h1 {
     width: 70%;
+    color: $sunnyd-seltzers-blue;
     -webkit-text-stroke-color: $sunnyd-seltzers-blue;
   }
 }
@@ -71,6 +73,7 @@
   .marquee h1 {
     width: 70%;
     -webkit-text-stroke-color: $funfetti-pink;
+    color: $funfetti-pink;
   }
 }
 
@@ -78,6 +81,7 @@
   .marquee h1 {
     width: 70%;
     -webkit-text-stroke-color: $honeygo-blue;
+    color: $honeygo-blue;
   }
 }
 
@@ -85,5 +89,6 @@
   .marquee h1 {
     width: 70%;
     -webkit-text-stroke-color: $cdt-green;
+    color: $cdt-green;
   }
 }

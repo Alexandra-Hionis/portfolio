@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;1,900&display=swap");
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -59,7 +59,7 @@ hr {
 h1 {
   -webkit-animation: marquee 25s linear infinite running;
           animation: marquee 25s linear infinite running;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-weight: 400;
   font-size: 36px;
@@ -96,7 +96,7 @@ h2 {
 }
 
 p {
-  font-family: "DM Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: 10px 0;
 }
 
@@ -336,7 +336,7 @@ header {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 18px;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -356,6 +356,7 @@ header {
 }
 
 .about {
+  background-color: #f5f5f5;
   margin-top: 50px;
 }
 
@@ -436,6 +437,7 @@ header {
 }
 
 .marquee h1 {
+  font-family: "DM Sans", sans-serif;
   white-space: nowrap;
   position: absolute;
   width: 100%;
@@ -450,7 +452,7 @@ header {
   color: black;
   -webkit-text-fill-color: white;
   /* Will override color (regardless of order) */
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 4px;
   -webkit-text-stroke-color: black;
   font-weight: 600;
   font-size: 66px;
@@ -484,22 +486,26 @@ header {
 
 .sunnyd-seltzers .marquee h1 {
   width: 70%;
+  color: #25aae0;
   -webkit-text-stroke-color: #25aae0;
 }
 
 .funfetti .marquee h1 {
   width: 70%;
   -webkit-text-stroke-color: #d0277f;
+  color: #d0277f;
 }
 
 .honeygo .marquee h1 {
   width: 70%;
   -webkit-text-stroke-color: #1952a2;
+  color: #1952a2;
 }
 
 .cdt-weddings .marquee h1 {
   width: 70%;
   -webkit-text-stroke-color: #7f918b;
+  color: #7f918b;
 }
 
 .projects {

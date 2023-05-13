@@ -1,6 +1,6 @@
 // Google Fonts
 
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;1,900&display=swap");
 
 @font-face {
   font-family: "Knockout-Sumo";
@@ -9,7 +9,7 @@
 
 h1 {
   animation: marquee 25s linear infinite running;
-  font-family: $dm-sans;
+  font-family: $dm-montserrat;
   text-transform: uppercase;
   font-weight: 400;
   font-size: 36px;
@@ -38,7 +38,7 @@ h2 {
 }
 
 p {
-  font-family: $dm-sans;
+  font-family: $dm-montserrat;
 
   margin: 10px 0;
 }
