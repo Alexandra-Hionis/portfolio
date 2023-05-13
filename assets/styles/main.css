@@ -259,6 +259,11 @@ header {
   text-decoration: underline;
 }
 
+.nav a {
+  color: #000;
+  text-decoration: none;
+}
+
 .plus-icon {
   width: 30px;
   height: 30px;
@@ -475,6 +480,11 @@ header {
 .honeygo .marquee h1 {
   width: 70%;
   -webkit-text-stroke-color: #1952a2;
+}
+
+.cdt-weddings .marquee h1 {
+  width: 70%;
+  -webkit-text-stroke-color: #7f918b;
 }
 
 .projects {
@@ -696,5 +706,17 @@ header {
 
 .honeygo .honeygo-logo {
   max-width: 250px;
+}
+
+.cdt-weddings ul.color-pallete li:nth-child(1) {
+  background: #7f918b;
+}
+
+.cdt-weddings ul.color-pallete li:nth-child(2) {
+  background: #eeedeb;
+}
+
+.cdt-weddings ul.color-pallete li:nth-child(3) {
+  background: #6f878e;
 }
 /*# sourceMappingURL=main.css.map */

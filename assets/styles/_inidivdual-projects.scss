@@ -116,12 +116,23 @@
     background: #37a3ab;
   }
   ul.color-pallete li:nth-child(2) {
-    background: #1952a2;
+    background: $honeygo-blue;
   }
   ul.color-pallete li:nth-child(3) {
     background: #e89758;
   }
   .honeygo-logo {
     max-width: 250px;
+  }
+}
+.cdt-weddings {
+  ul.color-pallete li:nth-child(1) {
+    background: $cdt-green;
+  }
+  ul.color-pallete li:nth-child(2) {
+    background: #eeedeb;
+  }
+  ul.color-pallete li:nth-child(3) {
+    background: #6f878e;
   }
 }
