@@ -26,7 +26,7 @@ function toggleNavPages() {
   }
 }
 var swiper = new Swiper(".swiper-all-projects", {
-  slidesPerView: "4",
+  slidesPerView: "1",
   centeredSlides: true,
   spaceBetween: 30,
 

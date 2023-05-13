@@ -368,6 +368,11 @@ header {
   border: 2px solid black;
 }
 
+.swiper-button-next,
+.swiper-button-prev {
+  color: black !important;
+}
+
 .swiper-all-projects .swiper {
   width: 100%;
   height: 100%;
@@ -380,6 +385,10 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -403,6 +412,7 @@ header {
 }
 
 .marquee h1 {
+  white-space: nowrap;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -449,19 +459,16 @@ header {
 }
 
 .sunnyd-seltzers .marquee h1 {
-  white-space: nowrap;
   width: 70%;
   -webkit-text-stroke-color: #25aae0;
 }
 
 .funfetti .marquee h1 {
-  white-space: nowrap;
   width: 70%;
   -webkit-text-stroke-color: #d0277f;
 }
 
 .honeygo .marquee h1 {
-  white-space: nowrap;
   width: 70%;
   -webkit-text-stroke-color: #1952a2;
 }
