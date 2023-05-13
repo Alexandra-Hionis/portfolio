@@ -9,18 +9,25 @@ $honeygo-blue: #1952a2;
 // Global Styles
 * {
   box-sizing: border-box;
-  margin: 0;
+  // margin: 0;
   padding: 0;
   scroll-behavior: smooth;
 }
-body {
-  margin: 0;
-}
+
 section {
   margin-top: 50px;
 }
 ul {
   list-style-type: none;
+}
+hr {
+  width: 70px;
+  @media screen and (min-width: $tablet) {
+    width: 120px;
+  }
+  @media screen and (min-width: $desktop) {
+    width: 180px;
+  }
 }
 .container {
   width: 100%;

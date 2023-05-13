@@ -33,47 +33,95 @@
       order: 1;
     }
   }
-}
-.design {
-  margin-top: 50px;
-  &__container {
-    display: grid;
-    grid-template-columns: 1fr;
+
+  hr {
+    width: 200px;
     @media screen and (min-width: $tablet) {
-      grid-template-columns: 1fr 1fr;
+      width: 300px;
+    }
+    @media screen and (min-width: $desktop) {
+      width: 450px;
     }
   }
-  &__column {
+  .design {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
     flex-direction: column;
-    margin-top: 20px;
+    @media screen and (min-width: $desktop) {
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+  }
+  .color-pallete {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    @media screen and (min-width: $mobile) {
+      flex-direction: row;
+    }
+    ul.color-pallete {
+      display: flex;
+      gap: 30px;
+      flex-direction: row;
+    }
+    ul.color-pallete li {
+      width: 100px;
+      height: 120px;
+      &:nth-child(1) {
+        margin-top: 5px;
+      }
+      &:nth-child(2) {
+        margin-top: 45px;
+      }
+      &:nth-child(3) {
+        margin-top: 85px;
+      }
+    }
+  }
+  .logo-evolution {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+  }
+  .gif {
+    width: 200px;
+  }
+  .before-after {
+    h1 {
+      text-align: center;
+    }
+    &__image-container {
+      display: flex;
+      justify-content: center;
+      img {
+        border: 2px solid black;
+      }
+    }
   }
 }
+// Page Specific
 .sunnyd-seltzers {
   .responsive {
     display: flex;
     flex-direction: column;
   }
 }
-
-ul.color-pallete {
-  display: flex;
-  gap: 10px;
-  //   justify-content: center;
-}
-ul.color-pallete li {
-  width: 100px;
-  height: 120px;
-}
-ul.color-pallete li:nth-child(1) {
-  background: #37a3ab;
-}
-ul.color-pallete li:nth-child(2) {
-  background: #1952a2;
-}
-ul.color-pallete li:nth-child(3) {
-  background: #e89758;
-}
-.honeygo-logo {
-  max-width: 250px;
+.honeygo {
+  ul.color-pallete li:nth-child(1) {
+    background: #37a3ab;
+  }
+  ul.color-pallete li:nth-child(2) {
+    background: #1952a2;
+  }
+  ul.color-pallete li:nth-child(3) {
+    background: #e89758;
+  }
+  .honeygo-logo {
+    max-width: 250px;
+  }
 }

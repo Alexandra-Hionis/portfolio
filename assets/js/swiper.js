@@ -1,13 +1,3 @@
-var swiper = new Swiper(".mySwiper", {
-  slidesPerView: "auto",
-  centeredSlides: true,
-  spaceBetween: 30,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-});
-
 // Socials navigation +
 function toggleNavSocials() {
   const navMenu = document.querySelector(".nav-socials");
@@ -35,13 +25,13 @@ function toggleNavPages() {
     xPages.style.transform = "rotate(90deg)";
   }
 }
-var swiper = new Swiper(".before-after", {
-  slidesPerView: 1,
-  spaceBetween: 30,
-  grabCursor: true,
+var swiper = new Swiper(".swiper-all-projects", {
+  slidesPerView: "4",
   centeredSlides: true,
-  768: {
-    slidesPerView: 1.5,
-    spaceBetween: 40,
+  spaceBetween: 30,
+
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
   },
 });
