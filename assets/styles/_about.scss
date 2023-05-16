@@ -1,6 +1,10 @@
 .about {
   background-color: $gray-bg;
   margin-top: 50px;
+  padding: 0px;
+  @media screen and (min-width: $tablet) {
+    padding: 10px 20px;
+  }
   &__container {
     display: grid;
     grid-template-columns: 2fr 3fr;
@@ -8,9 +12,5 @@
   }
   &__column:nth-child(2) {
     text-align: center;
-  }
-  padding: 0px;
-  @media screen and (min-width: $tablet) {
-    padding: 10px 20px;
   }
 }

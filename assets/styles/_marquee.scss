@@ -93,3 +93,10 @@
     color: $cdt-green;
   }
 }
+.litoplas {
+  .marquee h1 {
+    width: 70%;
+    -webkit-text-stroke-color: $litoplas-blue;
+    color: $litoplas-blue;
+  }
+}
