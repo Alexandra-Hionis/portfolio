@@ -208,12 +208,6 @@ p {
   position: relative;
 }
 
-.home .green {
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-}
-
 .home .self-portrait-container {
   position: absolute;
   bottom: 0;
@@ -318,6 +312,10 @@ p {
   width: 30px;
   height: 30px;
   margin-bottom: 10px;
+}
+
+.nav-pages li {
+  color: #eeedeb;
 }
 
 .main__landing {
