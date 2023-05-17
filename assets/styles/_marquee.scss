@@ -2,6 +2,7 @@
   height: 150px;
   overflow: hidden;
   position: relative;
+  margin-top: 10px;
 }
 
 .marquee h1 {
@@ -19,11 +20,11 @@
   -moz-animation: scroll-left 1s linear infinite;
   -webkit-animation: scroll-left 1s linear infinite;
   animation: scroll-left 15s linear infinite;
-  color: black;
+  color: $green-bg;
   // hallow it out
-  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-fill-color: $ivory; /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 4px;
-  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-color: $green-bg;
   font-weight: 600;
   font-size: 66px;
   @media screen and (min-width: $tablet) {

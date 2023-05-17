@@ -2,7 +2,7 @@
   &__main-container {
     display: grid;
     grid-template-columns: 1fr;
-    height: 80vh;
+
     @media screen and (min-width: $tablet) {
       grid-template-columns: 1fr 1fr;
     }
@@ -70,4 +70,8 @@
       height: 912px;
     }
   }
+}
+
+#projects {
+  background-color: $ivory;
 }
