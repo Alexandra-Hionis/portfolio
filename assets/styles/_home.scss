@@ -27,7 +27,7 @@
       //   display: flex;
       display: grid;
       grid-template-columns: 2fr 1fr;
-      height: 50vh;
+      height: 65vh;
       @media screen and (min-width: $mobile) {
         height: 100vh;
       }
@@ -39,9 +39,7 @@
   .green {
     justify-content: space-evenly;
   }
-  .main-header {
-    text-align: center;
-  }
+
   .self-portrait-container {
     position: absolute;
     bottom: 0;

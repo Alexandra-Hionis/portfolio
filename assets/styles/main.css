@@ -133,11 +133,13 @@ p {
 
 #main-header {
   font-family: "Knockout-Sumo", sans-serif;
+  text-align: center;
   text-transform: uppercase;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 1;
   text-align: center;
   font-weight: 400;
+  color: #eeedeb;
 }
 
 @media screen and (min-width: 768px) {
@@ -193,7 +195,7 @@ p {
   display: grid;
   -ms-grid-columns: 2fr 1fr;
       grid-template-columns: 2fr 1fr;
-  height: 50vh;
+  height: 65vh;
 }
 
 @media screen and (min-width: 576px) {
@@ -210,10 +212,6 @@ p {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-}
-
-.home .main-header {
-  text-align: center;
 }
 
 .home .self-portrait-container {
@@ -408,6 +406,9 @@ p {
 }
 
 .home .button {
+  background-color: #4db28e;
+  border: #eeedeb 2px solid;
+  color: #eeedeb;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;

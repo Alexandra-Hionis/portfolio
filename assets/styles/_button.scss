@@ -25,6 +25,9 @@
 
 .home {
   .button {
+    background-color: $green-bg;
+    border: $ivory 2px solid;
+    color: $ivory;
     justify-content: center;
     display: flex;
     max-width: 200px;
