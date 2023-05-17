@@ -33,7 +33,7 @@ h2 {
     font-size: 16px;
   }
   @media screen and (min-width: $tablet) {
-    font-size: 26px;
+    font-size: 24px;
   }
 }
 
@@ -69,4 +69,16 @@ p {
   //     text-align: center;
   //   }
   // }
+}
+#main-header {
+  font-family: $knockout;
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 1;
+  text-align: center;
+  font-weight: 400;
+
+  @media screen and (min-width: $tablet) {
+    font-size: 28px;
+  }
 }

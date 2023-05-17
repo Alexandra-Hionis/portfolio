@@ -2,9 +2,11 @@
   align-items: center;
   flex-direction: column;
   display: flex;
-  //   @media screen and (min-width: $tablet) {
-  //     flex-direction: row;
-  //   }
+  width: 40%;
+  z-index: 1099;
+  @media screen and (min-width: $tablet) {
+    width: 80%;
+  }
   &__list {
     list-style-type: none;
     writing-mode: vertical-rl;

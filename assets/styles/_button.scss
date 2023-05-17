@@ -22,3 +22,12 @@
 .button:hover {
   transform: scale(0.9);
 }
+
+.home {
+  .button {
+    justify-content: center;
+    display: flex;
+    max-width: 200px;
+    margin: 0 auto;
+  }
+}
