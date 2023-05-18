@@ -1,0 +1,90 @@
+// shape divider
+.svg-waves-container {
+  position: relative;
+}
+.custom-shape-divider-bottom-1684365769 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  background-color: $gray-bg;
+}
+
+.custom-shape-divider-bottom-1684365769 svg {
+  position: relative;
+  display: block;
+  width: calc(128% + 1.3px);
+  height: 120px;
+}
+
+.custom-shape-divider-bottom-1684365769 .shape-fill {
+  fill: $green-bg;
+}
+
+.footer {
+  margin-top: 110px;
+  background-color: $green-bg;
+}
+
+.title-word {
+  animation: color-animation 4s linear infinite;
+}
+
+.title-word-1 {
+  --color-1: #df8453;
+  --color-2: #3d8dae;
+  --color-3: #e4a9a8;
+}
+
+.title-word-2 {
+  --color-1: #dbad4a;
+  --color-2: #accfcb;
+  --color-3: #17494d;
+}
+
+.title-word-3 {
+  --color-1: #accfcb;
+  --color-2: #e4a9a8;
+  --color-3: #accfcb;
+}
+
+@keyframes color-animation {
+  0% {
+    color: var(--color-1);
+  }
+  32% {
+    color: var(--color-1);
+  }
+  33% {
+    color: var(--color-2);
+  }
+  65% {
+    color: var(--color-2);
+  }
+  66% {
+    color: var(--color-3);
+  }
+  99% {
+    color: var(--color-3);
+  }
+  100% {
+    color: var(--color-1);
+  }
+}
+
+/* Here are just some visual styles. 🖌 */
+
+.made-with-love {
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
+.copyright {
+  font-size: 12px;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 10px;
+}

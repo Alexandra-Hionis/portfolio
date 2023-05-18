@@ -127,6 +127,9 @@
     display: flex;
     flex-direction: column;
   }
+  video {
+    border: solid black 2px;
+  }
 }
 .honeygo {
   ul.color-pallete li:nth-child(1) {
