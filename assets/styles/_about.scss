@@ -1,5 +1,5 @@
 // about section on home page
-.about {
+.about-section {
   background-color: white;
   padding: 0px;
   @media screen and (min-width: $tablet) {
@@ -16,3 +16,32 @@
 }
 
 // about page
+.about {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+  @media screen and (min-width: $tablet) {
+    grid-template-columns: 1fr 1fr;
+  }
+  &__column:nth-child(1) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    align-items: stretch;
+    justify-items: stretch;
+    margin-top: 5px;
+  }
+  &__column:nth-child(1) img {
+    border: 2px solid $gray-bg;
+    // box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+    max-width: 100%;
+  }
+  &__column:nth-child(2) {
+    display: flex;
+    max-width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    text-align: left;
+  }
+}
