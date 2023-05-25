@@ -23,7 +23,7 @@ const projects = [
     h2ProjectName: "Honeygo Pediatrics",
     buttonProjectLink: "/honeygo-pediatrics.html",
     buttonText: "view project",
-    buttonRepoLink: "/",
+    buttonRepoLink: "https://github.com/Alexandra-Hionis/honeygo-pediatrics",
     buttonRepoText: "github",
   },
   {
@@ -32,7 +32,7 @@ const projects = [
     h2ProjectName: "Career Prep and Professional Development <br> coming soon",
     buttonProjectLink: "",
     buttonText: "Coming Soon",
-    buttonRepoLink: "/",
+    buttonRepoLink: "https://github.com/Alexandra-Hionis/career-coaching",
     buttonRepoText: "github",
   },
   {
@@ -53,7 +53,7 @@ for (var i = 0; i < projects.length; i++) {
     <div>
         <h2>${projects[i].h2ProjectName}</h2>
         <a class="button" href="${projects[i].buttonProjectLink}">${projects[i].buttonText}</a>
-        <a class="button" href="${projects[i].buttonRepoLink}">${projects[i].buttonRepoText}</a>
+        <a class="button" target="_blank" href="${projects[i].buttonRepoLink}">${projects[i].buttonRepoText}</a>
         </div>
     </div>`;
 }

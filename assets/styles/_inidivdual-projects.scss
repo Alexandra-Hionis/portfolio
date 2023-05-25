@@ -28,7 +28,7 @@
     margin: 29px;
     overflow-y: scroll;
     border: solid 2px black;
-    max-height: 400px;
+    max-height: 230px;
     @media screen and (min-width: $xlarge-desktop) {
       max-height: 600px;
     }
@@ -117,6 +117,13 @@
       justify-content: center;
       img {
         border: 2px solid black;
+        width: 300px;
+        @media screen and (min-width: $mobile) {
+          width: 450px;
+        }
+        @media screen and (min-width: $tablet) {
+          width: 600px;
+        }
       }
     }
   }

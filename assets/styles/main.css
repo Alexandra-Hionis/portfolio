@@ -257,6 +257,16 @@ p {
   background-color: white;
 }
 
+#swipe-more {
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  #swipe-more {
+    display: none;
+  }
+}
+
 .nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -738,7 +748,7 @@ p {
   margin: 29px;
   overflow-y: scroll;
   border: solid 2px black;
-  max-height: 400px;
+  max-height: 230px;
 }
 
 @media screen and (min-width: 1900px) {
@@ -909,6 +919,19 @@ p {
 
 .projects .before-after__image-container img {
   border: 2px solid black;
+  width: 300px;
+}
+
+@media screen and (min-width: 576px) {
+  .projects .before-after__image-container img {
+    width: 450px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .projects .before-after__image-container img {
+    width: 600px;
+  }
 }
 
 .sunnyd-seltzers .responsive {

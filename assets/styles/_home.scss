@@ -79,3 +79,10 @@
 #projects {
   background-color: white;
 }
+
+#swipe-more {
+  display: block;
+  @media screen and (min-width: $tablet) {
+    display: none;
+  }
+}

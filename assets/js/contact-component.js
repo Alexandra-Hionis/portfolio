@@ -9,9 +9,12 @@ class Contact extends HTMLElement {
     <h2>Have a question or want to work together?</h2>
     <p> Please feel free to reach out! You can find me on Upwork for any Freelance request. 
       <br>You can also reach out via email. I typically respond within 24 hours.</p>
-      <a href="mailto:alexandra.hionis@gmail.com"><div class="contact__info">
+      <a href="mailto:alexandra.hionis@gmail.com">
+      <div class="contact__info">
       <img src="assets/images/envelope-regular.svg" alt="envelope icon"/>
-     <p>LET'S CONNECT</a>
+     <p>LET'S CONNECT</p>
+     </div>
+     </a>
   </section>
         `;
   }
