@@ -14,3 +14,14 @@ var swiper = new Swiper(".swiper-all-projects", {
     },
   },
 });
+
+// About swiper
+var swiper = new Swiper(".swiper-about", {
+  slidesPerView: 4,
+  spaceBetween: 30,
+  centeredSlides: true,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});

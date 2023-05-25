@@ -5,7 +5,7 @@ $dm-sans: "DM Sans", sans-serif;
 
 // Colors
 $light-gray-bg: #f5f5f5;
-$green-bg: #4db28e;
+$green: #4db28e;
 $ivory: #eeedeb;
 $gray-bg: #f5f5f5;
 $sunnyd-seltzers-blue: #25aae0;
@@ -21,7 +21,8 @@ $litoplas-blue: #25aae0;
 }
 body {
   margin: 0;
-  background-color: $ivory;
+
+  background-color: white;
 }
 .container {
   width: 100%;

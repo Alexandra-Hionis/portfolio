@@ -20,11 +20,11 @@
   -moz-animation: scroll-left 1s linear infinite;
   -webkit-animation: scroll-left 1s linear infinite;
   animation: scroll-left 15s linear infinite;
-  color: $green-bg;
+  color: $green;
   // hallow it out
-  -webkit-text-fill-color: $ivory; /* Will override color (regardless of order) */
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 4px;
-  -webkit-text-stroke-color: $green-bg;
+  -webkit-text-stroke-color: $green;
   font-weight: 600;
   font-size: 66px;
   @media screen and (min-width: $tablet) {

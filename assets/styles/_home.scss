@@ -11,7 +11,7 @@
     background-color: $light-gray-bg;
   }
   &__main-column:nth-child(2) {
-    background-color: $green-bg;
+    background-color: $green;
   }
   .top-statement {
     display: flex;
@@ -19,6 +19,9 @@
     justify-content: space-between;
     div:nth-child(2) h2 {
       color: $ivory;
+    }
+    h2 {
+      white-space: nowrap;
     }
   }
   &__main-content {
@@ -73,5 +76,5 @@
 }
 
 #projects {
-  background-color: $ivory;
+  background-color: white;
 }

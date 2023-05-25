@@ -47,7 +47,7 @@ const projects = [
 ];
 
 for (var i = 0; i < projects.length; i++) {
-  document.querySelector(".swiper-wrapper").innerHTML += `
+  document.querySelector(".swiper-projects").innerHTML += `
 <div class="swiper-slide">
     <img src="${projects[i].imgSrc}" alt="${projects[i].alt}"> 
     <div>
