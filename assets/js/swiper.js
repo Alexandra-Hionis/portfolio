@@ -7,10 +7,4 @@ var swiper = new Swiper(".swiper-all-projects", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
-  breakpoints: {
-    768: {
-      centeredSlides: false,
-      slidesPerView: "1",
-    },
-  },
 });
