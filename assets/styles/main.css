@@ -751,6 +751,12 @@ p {
   max-height: 230px;
 }
 
+@media screen and (min-width: 768px) {
+  .projects__image-container {
+    max-height: 400px;
+  }
+}
+
 @media screen and (min-width: 1900px) {
   .projects__image-container {
     max-height: 600px;

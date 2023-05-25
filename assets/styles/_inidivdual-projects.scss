@@ -29,6 +29,9 @@
     overflow-y: scroll;
     border: solid 2px black;
     max-height: 230px;
+    @media screen and (min-width: $tablet) {
+      max-height: 400px;
+    }
     @media screen and (min-width: $xlarge-desktop) {
       max-height: 600px;
     }
