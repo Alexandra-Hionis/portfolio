@@ -44,6 +44,9 @@
   height: 30px;
   margin-bottom: 10px;
 }
-.nav-pages li {
+.nav-pages li a {
   color: $ivory;
+  &:hover {
+    text-decoration: underline $ivory;
+  }
 }

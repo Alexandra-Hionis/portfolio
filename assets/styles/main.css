@@ -324,8 +324,13 @@ p {
   margin-bottom: 10px;
 }
 
-.nav-pages li {
+.nav-pages li a {
   color: #eeedeb;
+}
+
+.nav-pages li a:hover {
+  -webkit-text-decoration: underline #eeedeb;
+          text-decoration: underline #eeedeb;
 }
 
 .main__landing {

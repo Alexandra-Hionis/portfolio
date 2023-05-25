@@ -3,7 +3,7 @@
 class Contact extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
-    <section class="contact">
+    <section class="contact" id="contact">
     <h1>Contact</h1>
     <hr size="2" color="black" />
     <h2>Have a question or want to work together?</h2>
