@@ -182,7 +182,6 @@ p {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 0 10px;
 }
 
 .home .top-statement div:nth-child(2) h2 {
