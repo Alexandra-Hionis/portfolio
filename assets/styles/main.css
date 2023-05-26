@@ -701,8 +701,8 @@ p {
 
 .litoplas .marquee h1 {
   width: 70%;
-  -webkit-text-stroke-color: #25aae0;
-  color: #25aae0;
+  -webkit-text-stroke-color: #49aae0;
+  color: #49aae0;
 }
 
 .topbar__back {
@@ -995,15 +995,15 @@ p {
 }
 
 .litoplas ul.color-pallete li:nth-child(1) {
-  background: #7f918b;
+  background: #49aae0;
 }
 
 .litoplas ul.color-pallete li:nth-child(2) {
-  background: #eeedeb;
+  background: #f4f6fc;
 }
 
 .litoplas ul.color-pallete li:nth-child(3) {
-  background: #6f878e;
+  background: #6f7b8f;
 }
 
 .contact {
