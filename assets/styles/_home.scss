@@ -17,7 +17,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    // padding: 0 10px;
     div:nth-child(2) h2 {
       color: $ivory;
     }
@@ -43,35 +42,26 @@
 
   .self-portrait-container {
     position: absolute;
-    bottom: 0;
+    bottom: -4px;
     right: 0;
   }
   #self-portrait {
-    // transform: translateY(-14px);
-
-    width: 286px;
-    height: 373px;
-    // width: 301px;
-    // height: 393px;
+    width: 300px;
+    height: auto;
     @media screen and (min-width: $mobile) {
-      //   transform: translateY(104px);
-      width: 364px;
-      height: 475px;
+      width: 340px;
     }
     @media screen and (min-width: $desktop) {
-      //   transform: translateY(69px);
-      width: 416px;
-      height: 543px;
+      width: 460px;
+      height: 588px;
     }
     @media screen and (min-width: $large-desktop) {
-      //   transform: translateY(69px);
-      width: 532px;
-      height: 695px;
+      width: 520px;
+      height: 638px;
     }
     @media screen and (min-width: $xlarge-desktop) {
-      //   transform: translateY(69px);
-      width: 699px;
-      height: 912px;
+      width: 700px;
+      height: 838px;
     }
   }
 }

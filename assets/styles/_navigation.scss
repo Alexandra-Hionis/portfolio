@@ -14,10 +14,6 @@
     display: flex;
     gap: 20px;
     display: none;
-    // @media screen and (min-width: $mobile) {
-    //   writing-mode: vertical-rl;
-    //   text-orientation: mixed;
-    // }
     &.openSocials {
       display: flex;
     }
