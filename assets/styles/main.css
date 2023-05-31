@@ -233,21 +233,18 @@ p {
 @media screen and (min-width: 992px) {
   .home #self-portrait {
     width: 460px;
-    height: 588px;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .home #self-portrait {
     width: 520px;
-    height: 638px;
   }
 }
 
 @media screen and (min-width: 1900px) {
   .home #self-portrait {
     width: 700px;
-    height: 838px;
   }
 }
 
