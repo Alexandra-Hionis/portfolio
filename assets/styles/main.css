@@ -1160,6 +1160,10 @@ p {
   display: grid;
   place-items: center;
   text-align: center;
+  font-size: 18px;
+  font-family: "Knockout-Sumo", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 5px;
 }
 
 .copyright {

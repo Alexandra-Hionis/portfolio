@@ -14,11 +14,11 @@ class Footer extends HTMLElement {
 
 </div>
 <div class="made-with-love">
-  <h2>
+  <span>
     <span class="title-word title-word-1">made</span>
     <span class="title-word title-word-2">with</span>
     <span class="title-word title-word-3">love</span>
-  </h2>
+  </span>
 </div>
 <p class="copyright">Designed and developed by me</p>
 <p class="copyright">&copy; 2023 Alexandra Hionis </p>
