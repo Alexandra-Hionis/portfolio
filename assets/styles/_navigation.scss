@@ -39,6 +39,8 @@
   width: 30px;
   height: 30px;
   margin-bottom: 10px;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
 }
 .nav-pages li a {
   color: $ivory;

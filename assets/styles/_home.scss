@@ -24,6 +24,18 @@
       white-space: nowrap;
     }
   }
+  #developer {
+    margin-left: 5px;
+    @media screen and (min-width: $tablet) {
+      margin-left: 20px;
+    }
+  }
+  #designer {
+    margin-right: 5px;
+    @media screen and (min-width: $tablet) {
+      margin-right: 20px;
+    }
+  }
   &__main-content {
     .wrapper {
       align-items: center;
