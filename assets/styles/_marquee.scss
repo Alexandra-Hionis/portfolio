@@ -101,3 +101,19 @@
     color: $litoplas-blue;
   }
 }
+
+.white-lily {
+  .marquee h1 {
+    width: 70%;
+    -webkit-text-stroke-color: $white-lily-green;
+    color: $white-lily-green;
+  }
+}
+
+.martha-white {
+  .marquee h1 {
+    width: 70%;
+    -webkit-text-stroke-color: $martha-white-red;
+    color: $martha-white-red;
+  }
+}

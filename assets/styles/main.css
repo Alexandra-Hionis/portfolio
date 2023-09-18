@@ -717,6 +717,18 @@ p {
   color: #49aae0;
 }
 
+.white-lily .marquee h1 {
+  width: 70%;
+  -webkit-text-stroke-color: #3A7E4C;
+  color: #3A7E4C;
+}
+
+.martha-white .marquee h1 {
+  width: 70%;
+  -webkit-text-stroke-color: #B33B40;
+  color: #B33B40;
+}
+
 .topbar__back {
   background-color: transparent;
 }
