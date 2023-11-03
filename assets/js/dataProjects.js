@@ -62,15 +62,7 @@ const projects = [
     buttonRepoLink: "",
     buttonRepoText: "",
   },
-  {
-    imgSrc: "assets/images/career-prep.png",
-    alt: "image of Career prep and professional development website",
-    h2ProjectName: "Career Prep and Professional Development <br> coming soon",
-    buttonProjectLink: "",
-    buttonText: "Coming Soon",
-    buttonRepoLink: "https://github.com/Alexandra-Hionis/career-coaching",
-    buttonRepoText: "github",
-  },
+ 
 ];
 
 for (var i = 0; i < projects.length; i++) {
