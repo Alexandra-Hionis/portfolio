@@ -9,15 +9,6 @@ const projects = [
     buttonRepoText: "",
   },
   {
-    imgSrc: "assets/images/funfetti.jpg",
-    alt: "image of funfetti website",
-    h2ProjectName: "Funfetti",
-    buttonProjectLink: "/funfetti.html",
-    buttonText: "view project",
-    buttonRepoLink: "",
-    buttonRepoText: "",
-  },
-  {
     imgSrc: "assets/images/honeygo-pediatrics.jpg",
     alt: "image of Honeygo Pediatrics website",
     h2ProjectName: "Honeygo Pediatrics",
@@ -62,6 +53,15 @@ const projects = [
     buttonRepoLink: "",
     buttonRepoText: "",
   },
+  // {
+  //   imgSrc: "assets/images/funfetti.jpg",
+  //   alt: "image of funfetti website",
+  //   h2ProjectName: "Funfetti",
+  //   buttonProjectLink: "/funfetti.html",
+  //   buttonText: "view project",
+  //   buttonRepoLink: "",
+  //   buttonRepoText: "",
+  // },
  
 ];
 
