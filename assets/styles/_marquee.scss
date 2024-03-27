@@ -117,3 +117,18 @@
     color: $martha-white-red;
   }
 }
+
+.broad-city {
+  .marquee h1 {
+    width: 70%;
+    -webkit-text-stroke-color: $broad-city-purple;
+    color: $broad-city-purple;
+  }
+}
+.dance-party {
+  .marquee h1 {
+    width: 70%;
+    -webkit-text-stroke-color: $dance-party-pink;
+    color: $dance-party-pink;
+  }
+}

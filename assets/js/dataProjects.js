@@ -1,14 +1,5 @@
 const projects = [
   {
-    imgSrc: "assets/images/sunnyd-seltzers.png",
-    alt: "image of sunnyd cocktails website",
-    h2ProjectName: "SunnyD Seltzers",
-    buttonProjectLink: "/sunnyd-cocktails.html",
-    buttonText: "view project",
-    buttonRepoLink: "",
-    buttonRepoText: "",
-  },
-  {
     imgSrc: "assets/images/honeygo-pediatrics.jpg",
     alt: "image of Honeygo Pediatrics website",
     h2ProjectName: "Honeygo Pediatrics",
@@ -18,23 +9,33 @@ const projects = [
     buttonRepoText: "github",
   },
   {
-    imgSrc: "assets/images/white-lily.jpg",
-    alt: "image of white lily website",
-    h2ProjectName: "White Lily",
-    buttonProjectLink: "/white-lily.html",
+    imgSrc: "assets/images/sunnyd-seltzers.png",
+    alt: "image of sunnyd cocktails website",
+    h2ProjectName: "SunnyD Seltzers",
+    buttonProjectLink: "/sunnyd-cocktails.html",
     buttonText: "view project",
     buttonRepoLink: "",
     buttonRepoText: "",
   },
-  {
-    imgSrc: "assets/images/martha-white.jpg",
-    alt: "image of martha white website",
-    h2ProjectName: "Martha White",
-    buttonProjectLink: "/martha-white.html",
-    buttonText: "view project",
-    buttonRepoLink: "",
-    buttonRepoText: "",
-  },
+
+  // {
+  //   imgSrc: "assets/images/white-lily.jpg",
+  //   alt: "image of white lily website",
+  //   h2ProjectName: "White Lily",
+  //   buttonProjectLink: "/white-lily.html",
+  //   buttonText: "view project",
+  //   buttonRepoLink: "",
+  //   buttonRepoText: "",
+  // },
+  // {
+  //   imgSrc: "assets/images/martha-white.jpg",
+  //   alt: "image of martha white website",
+  //   h2ProjectName: "Martha White",
+  //   buttonProjectLink: "/martha-white.html",
+  //   buttonText: "view project",
+  //   buttonRepoLink: "",
+  //   buttonRepoText: "",
+  // },
   {
     imgSrc: "assets/images/chanhassen-dinner-theatre-weddings.png",
     alt: "image of chanhassen dinner theatres wedding and events website",
@@ -53,6 +54,24 @@ const projects = [
     buttonRepoLink: "",
     buttonRepoText: "",
   },
+  {
+    imgSrc: "assets/images/broad-city-quiz.png",
+    alt: "image of Broad City Quiz",
+    h2ProjectName: "Broad City Quiz",
+    buttonProjectLink: "/broad-city.html",
+    buttonText: "View Project",
+    buttonRepoLink: "https://github.com/Alexandra-Hionis/broad-city-quiz",
+    buttonRepoText: "github",
+  },
+  {
+    imgSrc: "assets/images/dance-party.png",
+    alt: "image of Dance Party App",
+    h2ProjectName: "Dance Party App",
+    buttonProjectLink: "/dance-party.html",
+    buttonText: "View Project",
+    buttonRepoLink: "https://github.com/Alexandra-Hionis/dance-party",
+    buttonRepoText: "github",
+  },
   // {
   //   imgSrc: "assets/images/funfetti.jpg",
   //   alt: "image of funfetti website",
@@ -62,7 +81,6 @@ const projects = [
   //   buttonRepoLink: "",
   //   buttonRepoText: "",
   // },
- 
 ];
 
 for (var i = 0; i < projects.length; i++) {

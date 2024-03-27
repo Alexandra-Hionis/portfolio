@@ -729,6 +729,18 @@ p {
   color: #B33B40;
 }
 
+.broad-city .marquee h1 {
+  width: 70%;
+  -webkit-text-stroke-color: #8549F1;
+  color: #8549F1;
+}
+
+.dance-party .marquee h1 {
+  width: 70%;
+  -webkit-text-stroke-color: #BE99B1;
+  color: #BE99B1;
+}
+
 .topbar__back {
   background-color: transparent;
 }
@@ -1028,6 +1040,11 @@ p {
 
 .litoplas ul.color-pallete li:nth-child(3) {
   background: #6f7b8f;
+}
+
+.broad-city .project-video, .dance-party .project-video {
+  width: 100%;
+  height: 100%;
 }
 
 .contact {
