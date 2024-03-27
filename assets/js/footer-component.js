@@ -21,7 +21,7 @@ class Footer extends HTMLElement {
   </span>
 </div>
 <p class="copyright">Designed and developed by me</p>
-<p class="copyright">&copy; 2023 Alexandra Hionis </p>
+<p class="copyright">&copy; <span id="currentYear"></span> Alexandra Hionis </p>
 </footer> 
         `;
   }
