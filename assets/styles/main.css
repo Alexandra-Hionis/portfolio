@@ -448,12 +448,7 @@ p {
   }
 }
 
-.button:hover {
-  -webkit-transform: scale(0.9);
-          transform: scale(0.9);
-}
-
-.home .button {
+.button--home {
   background-color: #4db28e;
   border: #eeedeb 2px solid;
   color: #eeedeb;
@@ -465,6 +460,15 @@ p {
   display: flex;
   max-width: 200px;
   margin: 0 auto;
+}
+
+.button:hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+#button-projects-grid-view {
+  margin-left: 10px;
 }
 
 .about-section {

@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Google Site Verification -->
-    <meta name="google-site-verification" content="21wYjxpY8yGpiG1SOOvvwkrM7WdH0MlWTJrLukLZABw" />
+    <meta
+      name="google-site-verification"
+      content="21wYjxpY8yGpiG1SOOvvwkrM7WdH0MlWTJrLukLZABw"
+    />
     <!-- CSS -->
     <link rel="stylesheet" href="assets/styles/main.css" />
     <!-- Animate on scroll library -->
@@ -39,7 +42,6 @@
             <div class="wrapper">
               <div class="nav">
                 <img
-                  onclick="toggleNavSocials()"
                   src="assets/images/plus-solid.svg"
                   class="plus-icon"
                   id="plus-icon-socials"
@@ -86,12 +88,11 @@
             <div class="wrapper">
               <div>
                 <h2 id="main-header">Welcome to <br />my portfolio</h2>
-                <a class="button" href="#about">What I do</a>
+                <a class="button button--home" href="#about">What I do</a>
               </div>
               <div>
                 <div class="nav">
                   <img
-                    onclick="toggleNavPages()"
                     src="assets/images/plus-solid-ivory.svg"
                     class="plus-icon"
                     id="plus-icon-pages"
@@ -99,7 +100,7 @@
                   />
                   <ul class="nav__list nav-pages">
                     <li><a href="#projects">Projects</a></li>
-                    <li> <a href="#about">About</a></li>
+                    <li><a href="#about">About</a></li>
                     <li><a href="#contact">Contact</a></li>
                   </ul>
                 </div>
@@ -110,69 +111,87 @@
       </div>
     </section>
 
-    
-  <!-- About -->
-  <section class="about-section container" id="about">
-    <div  class="container__inner" 
-    data-aos="fade-up"
-    data-aos-offset="200"
-    data-aos-delay="50"
-    data-aos-duration="1000"
-    data-aos-easing="ease-in-out"
-    data-aos-mirror="true"
-    data-aos-once="true"
-  
-  >
-
-  <div class="about-section__container">
-      <div class="about-section__column">
-        <h1 class="vertical">about</h1>
+    <!-- About -->
+    <section class="about-section container" id="about">
+      <div
+        class="container__inner"
+        data-aos="fade-up"
+        data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="true"
+      >
+        <div class="about-section__container">
+          <div class="about-section__column">
+            <h1 class="vertical">about</h1>
+          </div>
+          <div class="about-section__column">
+            <h1 class="bio">
+              Hello. Nice to meet you!<br />
+              <span>I'm Alexandra:</span>
+            </h1>
+            <p>
+              As a Front-End Web Developer and self-motivated professional, I
+              successfully code, and build clean, responsive websites. My skills
+              and abilities have led me to work on some amazing brands and with
+              some talented minds. I love what I do and I learn new things
+              everyday! I also dabble in design, take photos for websites or
+              google business accounts, offer personal / business enhancement
+              through site revamps, enhanced google rankings, and seo practices
+              as well. Want to know more? Feel free to contact me below!
+            </p>
+            <!-- <a class="button" href="/about.html">Learn More About Me</a> -->
+          </div>
+        </div>
       </div>
-      <div class="about-section__column">   
-        <h1 class="bio">Hello. Nice to meet you!<br>
-    <span>I'm Alexandra:</span></h1>
-        <p> As a Front-End Web Developer and self-motivated professional, I successfully code, and build clean,
-          responsive websites. My skills and abilities have led me to work on some amazing brands and with some talented minds. I love what I do and I learn new things everyday! I also dabble in design, take photos for websites or google business accounts, offer personal / business enhancement through site revamps, enhanced google rankings, and seo practices as well. Want to know more? Feel free to contact me below! </p>
-        <!-- <a class="button" href="/about.html">Learn More About Me</a> -->
-  </div>
-</div>
-</div>
-  </section>
- 
-  <!-- Projects -->
-  <section id="projects" class="projects container">
-    <div class="container__inner">
-    <div class="marquee">
-        <h1>Let's see the goods</h1>
-    </div>
-    <div 
-    style="display: flex;
-    align-items: center;"><h1>projects</h1><hr size="5" color="black" /></div>
-    <h2 id="swipe-more">Swipe to see more</h2>
-    <!-- Swiper -->
-  <div class="swiper swiper-all-projects">
-    <div class="swiper-wrapper swiper-projects">
-      <!-- dynamic slides load here -->
-    </div>
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
-  </div></div>
-  
-  </section>
+    </section>
 
-  <!-- Contact -->
-  <contact-component></contact-component>
-</div>
-</section>
+    <!-- Projects -->
+    <section id="projects" class="projects container">
+      <div class="container__inner">
+        <div class="marquee">
+          <h1>Let's see the goods</h1>
+        </div>
+        <div style="display: flex; align-items: center">
+          <h1>projects</h1>
+          <a class="button" id="button-projects-grid-view">View as grid</a>
+          <hr size="5" color="black" />
+        </div>
+        <h2 id="swipe-more">Swipe to see more</h2>
+        <!-- Swiper -->
+        <div class="swiper swiper-all-projects">
+          <div class="swiper-wrapper swiper-projects">
+            <!-- dynamic slides load here -->
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+    </section>
 
- <!-- Footer Template -->
- <main-footer></main-footer>
-  <!-- Accessibility -->
-  <script
-  type="text/javascript"
-  src="node_modules/accessibility/dist/main.bundle.js"
-></script>
-<script>window.addEventListener('load', function() { new Accessibility(); }, false);</script>
+    <!-- Contact -->
+    <contact-component></contact-component>
+    <!-- </div>
+</section> -->
+
+    <!-- Footer Template -->
+    <main-footer></main-footer>
+    <!-- Accessibility -->
+    <script
+      type="text/javascript"
+      src="node_modules/accessibility/dist/main.bundle.js"
+    ></script>
+    <script>
+      window.addEventListener(
+        "load",
+        function () {
+          new Accessibility();
+        },
+        false
+      );
+    </script>
     <!-- Swiper -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <!-- Animate on scroll -->
@@ -180,8 +199,6 @@
     <script>
       AOS.init();
     </script>
-
     <script type="text/javascript" src="dist/js/bundle.js"></script>
-    
   </body>
 </html>
