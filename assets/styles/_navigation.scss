@@ -4,6 +4,9 @@
   display: flex;
   width: 40%;
   z-index: 1099;
+  position: relative;
+  // set height to avoid image from bouncing down
+  height: 300px;
   @media screen and (min-width: $tablet) {
     width: 80%;
   }
