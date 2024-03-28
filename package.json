@@ -4,7 +4,10 @@
   "description": "Alexandra H Portfolio",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "npm run watch:js & npm run server",
+    "watch:js": "nodemon --exec \"npm run build\" --watch ./assets/js",
+    "build": "webpack",
+    "server": "node app.js"
   },
   "repository": {
     "type": "git",
