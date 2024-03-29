@@ -752,6 +752,12 @@ p {
   color: #BE99B1;
 }
 
+.tip-calc .marquee h1 {
+  width: 70%;
+  -webkit-text-stroke-color: #2C2E5C;
+  color: #2C2E5C;
+}
+
 .topbar__back {
   background-color: transparent;
 }

@@ -132,3 +132,11 @@
     color: $dance-party-pink;
   }
 }
+
+.tip-calc {
+  .marquee h1 {
+    width: 70%;
+    -webkit-text-stroke-color: $tip-calc-purple;
+    color: $tip-calc-purple;
+  }
+}

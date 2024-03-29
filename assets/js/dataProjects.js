@@ -72,6 +72,15 @@ const projects = [
     buttonRepoLink: "https://github.com/Alexandra-Hionis/dance-party",
     buttonRepoText: "github",
   },
+  {
+    imgSrc: "assets/images/tip-calculator.png",
+    alt: "image of Tip Calculator",
+    h2ProjectName: "Tip Calculator",
+    buttonProjectLink: "/tip-calculator.html",
+    buttonText: "View Project",
+    buttonRepoLink: "https://github.com/Alexandra-Hionis/Tip-Calculator",
+    buttonRepoText: "github",
+  },
   // {
   //   imgSrc: "assets/images/funfetti.jpg",
   //   alt: "image of funfetti website",
