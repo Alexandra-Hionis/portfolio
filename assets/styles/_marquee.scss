@@ -140,3 +140,11 @@
     color: $tip-calc-purple;
   }
 }
+
+.fireside{
+  .marquee h1 {
+    width: 70%;
+    -webkit-text-stroke-color: $fireside-orange;
+    color: $fireside-orange;
+  }
+}

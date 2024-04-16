@@ -43,7 +43,7 @@ const projects = [
     buttonProjectLink: "/chanhassen-theatre.html",
     buttonText: "View Project",
     buttonRepoLink: "",
-    buttonRepoText: "github",
+    buttonRepoText: "",
   },
   {
     imgSrc: "assets/images/litoplas.png",
@@ -80,6 +80,15 @@ const projects = [
     buttonText: "View Project",
     buttonRepoLink: "https://github.com/Alexandra-Hionis/Tip-Calculator",
     buttonRepoText: "github",
+  },
+  {
+    imgSrc: "assets/images/fireside.png",
+    alt: "image of Fireside Services",
+    h2ProjectName: "Fireside Services",
+    buttonProjectLink: "/fireside-services.html",
+    buttonText: "View Project",
+    buttonRepoLink: "",
+    buttonRepoText: "",
   },
   // {
   //   imgSrc: "assets/images/funfetti.jpg",

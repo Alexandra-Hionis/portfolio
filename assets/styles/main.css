@@ -758,6 +758,12 @@ p {
   color: #2C2E5C;
 }
 
+.fireside .marquee h1 {
+  width: 70%;
+  -webkit-text-stroke-color: #eb652a;
+  color: #eb652a;
+}
+
 .topbar__back {
   background-color: transparent;
 }
