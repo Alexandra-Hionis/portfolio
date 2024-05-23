@@ -230,43 +230,15 @@ p {
   }
 }
 
-.home .wrapper:nth-child(1) {
-  position: relative;
-}
-
-.home .self-portrait-container {
-  position: absolute;
-  bottom: -4px;
-  right: 0;
+@media screen and (min-width: 1045px) {
+  .home .self-portrait-container {
+    margin-right: 100px;
+  }
 }
 
 .home #self-portrait {
   width: 300px;
   height: auto;
-}
-
-@media screen and (min-width: 576px) {
-  .home #self-portrait {
-    width: 340px;
-  }
-}
-
-@media screen and (min-width: 992px) {
-  .home #self-portrait {
-    width: 460px;
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .home #self-portrait {
-    width: 520px;
-  }
-}
-
-@media screen and (min-width: 1900px) {
-  .home #self-portrait {
-    width: 700px;
-  }
 }
 
 #projects {
@@ -436,10 +408,10 @@ p {
       -ms-flex-pack: center;
           justify-content: center;
   font-size: 12px;
-  -webkit-transition: -webkit-transform 0.2s ease;
-  transition: -webkit-transform 0.2s ease;
-  transition: transform 0.2s ease;
-  transition: transform 0.2s ease, -webkit-transform 0.2s ease;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
 }
 
 @media screen and (min-width: 768px) {
@@ -450,8 +422,8 @@ p {
 
 .button--home {
   background-color: #4db28e;
-  border: #eeedeb 2px solid;
-  color: #eeedeb;
+  border: #eeedeb 2px solid !important;
+  color: #eeedeb !important;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -462,9 +434,15 @@ p {
   margin: 0 auto;
 }
 
+.button--home:hover {
+  background-color: #F05F34;
+}
+
 .button:hover {
   -webkit-transform: scale(0.9);
           transform: scale(0.9);
+  color: #F05F34;
+  border: #F05F34 2px solid;
 }
 
 #button-projects-grid-view {
