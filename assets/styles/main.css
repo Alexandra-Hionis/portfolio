@@ -434,15 +434,9 @@ p {
   margin: 0 auto;
 }
 
-.button--home:hover {
-  background-color: #F05F34;
-}
-
 .button:hover {
   -webkit-transform: scale(0.9);
           transform: scale(0.9);
-  color: #F05F34;
-  border: #F05F34 2px solid;
 }
 
 #button-projects-grid-view {

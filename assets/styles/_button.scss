@@ -27,16 +27,13 @@
     display: flex;
     max-width: 200px;
     margin: 0 auto;
-    &:hover{
-      background-color: #F05F34;
-    }
+   
   }
 }
 
 .button:hover {
   transform: scale(0.9);
-  color: #F05F34;
-  border: #F05F34 2px solid;
+ 
 }
 
 #button-projects-grid-view{
