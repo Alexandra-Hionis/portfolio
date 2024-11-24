@@ -1,3 +1,5 @@
+import "../styles/main.scss";
+
 import "./nav";
 import "./footer-component.js";
 import "./contact-component.js";
