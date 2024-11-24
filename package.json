@@ -4,8 +4,9 @@
   "description": "Alexandra H Portfolio",
   "main": "index.js",
   "scripts": {
-    "start": "npm run watch:js & npm run server",
+    "start": "npm run watch:js & npm run watch:scss & npm run server",
     "watch:js": "nodemon --exec \"npm run build\" --watch ./assets/js",
+    "watch:scss": "webpack --watch --config webpack.config.js",
     "build": "webpack",
     "server": "node app.js"
   },
