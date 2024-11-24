@@ -1,10 +1,23 @@
+// Import Swiper styles
+import "swiper/css";
+
+// Import Swiper functionality
+import Swiper from "swiper/bundle";
+
 // Swiper for projects
-var swiper = new Swiper(".swiper-all-projects", {
+const swiper = new Swiper(".swiper-all-projects", {
   centeredSlides: true,
   spaceBetween: 40,
   slidesPerView: "1",
+  simulateTouch: true,
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
+  },
+  breakpoints: {
+    768: {
+      grabCursor: false,
+      simulateTouch: false,
+    },
   },
 });
