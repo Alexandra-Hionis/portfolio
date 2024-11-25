@@ -83,10 +83,14 @@
     margin-left: 30px;
 }
 
-#projects {
+.projects {
   background-color: white;
-}
 
+  &__headline {
+    display: flex;
+    align-items: center;
+  }
+}
 #swipe-more {
   display: block;
   @media screen and (min-width: $tablet) {
