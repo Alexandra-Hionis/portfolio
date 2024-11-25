@@ -11,7 +11,7 @@
     }
 
     img {
-      border: 2px solid black;
+      border: 2px solid $black;
       max-width: 100%;
       height: auto;
       margin: 0 auto;
@@ -27,7 +27,7 @@
 
   .swiper-button-next,
   .swiper-button-prev {
-    color: black;
+    color: $black;
     top: 38%;
     @media screen and (max-width: 768px) {
       display: none;
@@ -43,7 +43,7 @@
     width: 12px;  
     height: 12px;  
     margin: 0 6px; 
-    background-color: black; 
+    background-color: $black; 
     transition: background-color 0.5s;
   }
 

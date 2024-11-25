@@ -5,7 +5,6 @@
   width: 40%;
   z-index: 1099;
   position: relative;
-  // set height to avoid image from bouncing down
   height: 300px;
   @media screen and (min-width: $tablet) {
     width: 80%;
@@ -14,26 +13,26 @@
     list-style-type: none;
     writing-mode: vertical-rl;
     text-orientation: mixed;
-    display: flex;
     gap: 20px;
-    display: none;
-    &.openSocials {
-      display: flex;
-    }
+    display: flex;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    &.openSocials,
     &.openPages {
-      display: flex;
+      opacity: 1;
     }
   }
+
   li {
     font-family: $knockout;
     text-transform: uppercase;
     cursor: pointer;
     &:hover {
-      text-decoration: underline;
+      text-decoration: underline $black wavy;
     }
   }
   a {
-    color: #000;
+    color: $black;
     text-decoration: none;
   }
 }
@@ -45,9 +44,10 @@
   cursor: pointer;
   transition: 0.5s ease-in-out;
 }
+
 .nav-pages li a {
   color: $ivory;
   &:hover {
-    text-decoration: underline $ivory;
+    text-decoration: underline $ivory wavy;
   }
 }

@@ -19,6 +19,7 @@ $broad-city-purple: #8549F1;
 $dance-party-pink: #BE99B1;
 $tip-calc-purple:#2C2E5C;
 $fireside-orange: #eb652a;
+$black: #000;
 // Global Styles
 * {
   box-sizing: border-box;
@@ -46,6 +47,7 @@ body {
 ul {
   list-style-type: none;
 }
+
 hr {
   width: 70px;
   @media screen and (min-width: $tablet) {
@@ -61,7 +63,6 @@ hr {
     width: 100%;
     &__inner {
       max-width: 95%;
-      // padding: 0 10%;
     }
   }
 }
