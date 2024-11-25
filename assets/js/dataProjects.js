@@ -105,12 +105,12 @@ for (var i = 0; i < projects.length; i++) {
   document.querySelector(".swiper-projects").innerHTML += `
 <div class="swiper-slide">
     <img src="${projects[i].imgSrc}" alt="${projects[i].alt}"> 
-    <div>
-        <h2>${projects[i].h2ProjectName}</h2>
+      <h2>${projects[i].h2ProjectName}</h2>
+      <div class="swiper-slide__button-container">
         <a class="button" href="${projects[i].buttonProjectLink}">${projects[i].buttonText}</a>
         <a class="button" target="_blank" href="${projects[i].buttonRepoLink}">${projects[i].buttonRepoText}</a>
-        </div>
-    </div>`;
+      </div>
+</div>`;
 }
 // Hide all buttons if href="" is blank
 const buttons = document.getElementsByClassName("button");
