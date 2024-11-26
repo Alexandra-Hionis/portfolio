@@ -1,5 +1,6 @@
 import "../styles/main.scss";
 import "./aos.js";
+import "./accessibility.js";
 import "./nav";
 import "./footer-component.js";
 import "./contact-component.js";
