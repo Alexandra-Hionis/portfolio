@@ -101,22 +101,33 @@ const projects = [
   // },
 ];
 
-for (var i = 0; i < projects.length; i++) {
-  document.querySelector(".swiper-projects").innerHTML += `
-<div class="swiper-slide">
-    <img src="${projects[i].imgSrc}" alt="${projects[i].alt}"> 
-      <h2>${projects[i].h2ProjectName}</h2>
-      <div class="swiper-slide__button-container">
-        <a class="button" href="${projects[i].buttonProjectLink}">${projects[i].buttonText}</a>
-        <a class="button" target="_blank" href="${projects[i].buttonRepoLink}">${projects[i].buttonRepoText}</a>
-      </div>
-</div>`;
-}
-// Hide all buttons if href="" is blank
-const buttons = document.getElementsByClassName("button");
-for (let i = 0; i < buttons.length; i++) {
-  const button = buttons[i];
-  if (button.getAttribute("href") === "") {
-    button.style.display = "none";
+const swiperProjects = document.querySelector(".swiper-projects");
+
+if (swiperProjects) {
+  // Ensure that the swiper-projects container exists
+  // Loop through each project and add it to the DOM
+  for (let i = 0; i < projects.length; i++) {
+    swiperProjects.innerHTML += `
+      <div class="swiper-slide">
+        <img src="${projects[i].imgSrc}" alt="${projects[i].alt}">
+        <h2>${projects[i].h2ProjectName}</h2>
+        <div class="swiper-slide__button-container">
+          <a class="button" href="${projects[i].buttonProjectLink}">${projects[i].buttonText}</a>
+          <a class="button" target="_blank" href="${projects[i].buttonRepoLink}">${projects[i].buttonRepoText}</a>
+        </div>
+      </div>`;
   }
+
+  // Hide buttons if href is empty
+  const buttons = document.getElementsByClassName("button");
+  for (let i = 0; i < buttons.length; i++) {
+    const button = buttons[i];
+    if (button.getAttribute("href") === "") {
+      button.style.display = "none";
+    }
+  }
+} else {
+  console.warn(
+    "Swiper projects container not found. Make sure the .swiper-projects element exists in the DOM."
+  );
 }
