@@ -8,15 +8,15 @@ const projects = [
     buttonRepoLink: "https://github.com/Alexandra-Hionis/honeygo-pediatrics",
     buttonRepoText: "github",
   },
-  // {
-  //   imgSrc: "assets/images/sunnyd-seltzers.png",
-  //   alt: "image of sunnyd cocktails website",
-  //   h2ProjectName: "SunnyD Seltzers",
-  //   buttonProjectLink: "/sunnyd-cocktails.html",
-  //   buttonText: "view project",
-  //   buttonRepoLink: "",
-  //   buttonRepoText: "",
-  // },
+  {
+    imgSrc: "assets/images/sunnyd-seltzers.png",
+    alt: "image of sunnyd cocktails website",
+    h2ProjectName: "SunnyD Seltzers",
+    buttonProjectLink: "/sunnyd-cocktails.html",
+    buttonText: "view project",
+    buttonRepoLink: "",
+    buttonRepoText: "",
+  },
 
   // {
   //   imgSrc: "assets/images/white-lily.jpg",
